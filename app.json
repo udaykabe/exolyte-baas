@@ -32,7 +32,7 @@
     "MAILGUN_API_KEY": {
       "description": "mailgun.com API Key",
       "value": "xxxxxxxxxxxx"
-    }
+    },
     "TWILIO_AUTH_TOKEN": {
       "description": "Auth token for twilio.com",
       "value": "xxxxxxxxxxxx"
