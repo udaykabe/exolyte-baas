@@ -40,6 +40,10 @@
     "TWILIO_ACCOUNT_SID": {
       "description": "twilio.com Account SID",
       "value": "xxxxxxxxxxxx"
+    },
+    "TWILIO_TELEPHONE_NUMBER": {
+      "description": "twilio.com sending telephone number",
+      "value": "+1xxx5551212"
     }
   },
   "image": "heroku/nodejs",
