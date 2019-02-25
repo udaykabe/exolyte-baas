@@ -19,7 +19,27 @@
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://yourappname.herokuapp.com/parse"
+      "value": "https://yourappname.herokuapp.com/parse"
+    },
+    "MAILGUN_FROM_ADDRESS": {
+      "description": "From: address for emails from mailgun.com",
+      "value": "no-reply@mailgun.example.com"
+    },
+    "MAILGUN_DOMAIN": {
+      "description": "email domain from mailgun.com",
+      "value": "mailgun.example.com"
+    },
+    "MAILGUN_API_KEY": {
+      "description": "mailgun.com API Key",
+      "value": "xxxxxxxxxxxx"
+    }
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Auth token for twilio.com",
+      "value": "xxxxxxxxxxxx"
+    },
+    "TWILIO_ACCOUNT_SID": {
+      "description": "twilio.com Account SID",
+      "value": "xxxxxxxxxxxx"
     }
   },
   "image": "heroku/nodejs",
