@@ -121,9 +121,11 @@ curl -X POST \
   http://localhost:1337/parse/functions/hello
 ```
 
-Example using it via JavaScript:
+Example using it via NodeJs:
 
 ```javascript
+const Parse = require('parse/node');
+
 Parse.initialize('myAppId','unused');
 Parse.serverURL = 'https://whatever.herokuapp.com';
 
